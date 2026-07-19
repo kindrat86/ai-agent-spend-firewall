@@ -1,0 +1,23 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["kindrat86"],
+  "name": "sipi-bot",
+  "description": "Pre-spend firewall for autonomous AI agents. Every transaction gets APPROVED, BLOCKED, or FLAGGED against per-tx caps, velocity rules, and merchant allowlists before money moves. Decides in under 5ms. MCP-native.",
+  "type": "mcp_server",
+  "status": "production",
+  "framework": "Python 3.11+",
+  "tools": 5,
+  "transport": ["http"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "spend-firewall",
+    "ai-agents",
+    "agent-economy",
+    "fraud-prevention",
+    "payments",
+    "fintech",
+    "compliance",
+    "x402"
+  ]
+}
